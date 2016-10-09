@@ -1,0 +1,18 @@
+{
+  "name": "dron-version",
+  "version": "0.0.1",
+  "license": "MIT",
+  "dron": {
+    "version": "0.0.3"
+  },
+  "description": "Increases version and makes commit",
+  "keywords": [
+    "dron",
+    "module"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vladimir Kalmykov <vladimirmorulus@gmail.com>"
+}
