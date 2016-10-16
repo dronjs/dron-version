@@ -56,7 +56,7 @@ function confirm(json) {
 
 	write.prompt = function() {
 		var isGit = this.touch('.git').isDirectory();
-		console.log('isGit', isGit);
+		
 		return [
 			{
 				type: 'confirm',
