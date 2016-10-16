@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "dron": {
-    "version": "0.0.3"
+    "version": "0.0.6"
   },
   "description": "Increases version and makes commit",
   "keywords": [
