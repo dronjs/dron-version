@@ -23,6 +23,17 @@ function increaseBuildVersion(version) {
 	.map(function(v, index) { return index===2 ? parseInt(v)+1 : v; }).join('.');
 }
 
+function help() {
+	this.log('Usage: dron version <query>');
+	this.log('where <query> is one of:');
+	this.log('	+<literals> Increase build version');
+	this.log('	++<literals> Increase minor version');
+	this.log('	+++<literals> Increase major version');
+	this.log('');
+	this.log('where <literals> is alphabetic version.');
+	return true;
+}
+
 
 /**
  * confirm - Ask user for confirmation of future version
